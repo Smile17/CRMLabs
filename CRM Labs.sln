@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicsConnection", "DynamicsConnection\DynamicsConnection.csproj", "{3372009F-44CB-4185-92E0-B237E759777B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicsDataGenerator", "DynamicsDataGenerator\DynamicsDataGenerator.csproj", "{73C81AAA-23F5-436C-97B4-7F2043AE1C38}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3372009F-44CB-4185-92E0-B237E759777B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3372009F-44CB-4185-92E0-B237E759777B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3372009F-44CB-4185-92E0-B237E759777B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3372009F-44CB-4185-92E0-B237E759777B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73C81AAA-23F5-436C-97B4-7F2043AE1C38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73C81AAA-23F5-436C-97B4-7F2043AE1C38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73C81AAA-23F5-436C-97B4-7F2043AE1C38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73C81AAA-23F5-436C-97B4-7F2043AE1C38}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {259921FF-E296-4AA0-993F-0A7DC40B41A9}
+	EndGlobalSection
+EndGlobal
