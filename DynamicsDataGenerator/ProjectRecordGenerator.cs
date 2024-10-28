@@ -49,13 +49,13 @@ namespace DynamicsDataGenerator
             Entity entity = new Entity(RecordTable);
             entity["cr78f_reportedhours"] = data.ReportedHours;
             entity["cr78f_project"] = new EntityReference(MapToD365Entity.ProjectTable, data.Project.Id);
-            entity["cr78f_day"] = new EntityReference(MapToD365Entity.ProjectDayTable, data.Day.Id); ;
+            //entity["cr78f_day"] = new EntityReference(MapToD365Entity.ProjectDayTable, data.Day.Id); ;
             entity["cr78f_date"] = data.Date;
             entity["cr78f_approved"] = data.Approved;
             entity["cr78f_type"] = new OptionSetValue(Int32.Parse(data.Type));
             entity["cr78f_name"] = data.Description;
             //entity["cr78f_employee"] = new EntityReference(CrmRequests.UserTable, data.Employee.Id);
-            entity["cr78f_employee"] = data.Day["cr78f_employee"];
+            //entity["cr78f_employee"] = data.Day["cr78f_employee"];
             return entity;
         }
     }
